@@ -1,1 +1,1 @@
-module.exports = require("./build/wonderpush/withWonderPush.js")
+module.exports = require("./build/talkjs/withTalkjs.js")
