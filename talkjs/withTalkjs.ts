@@ -6,12 +6,13 @@
 import { ConfigPlugin } from '@expo/config-plugins'
 
 import { WonderPushPluginProps } from '../types/types'
-import { withWonderPushAndroid } from './withTalkjsAndroid'
-import { withWonderPushIos } from './withTalkjsIos'
+import { withTalkjsAndroid } from './withTalkjsAndroid'
+
+// import { withWonderPushIos } from './withTalkjsIos'
 
 const withWonderPush: ConfigPlugin<WonderPushPluginProps> = (config, props) => {
-  config = withWonderPushIos(config, props)
-  config = withWonderPushAndroid(config, props)
+  // config = withWonderPushIos(config, props)
+  config = withTalkjsAndroid(config, props)
 
   return config
 }
