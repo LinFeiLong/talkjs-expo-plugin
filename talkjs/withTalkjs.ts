@@ -10,9 +10,9 @@ import { withTalkjsAndroid } from './withTalkjsAndroid'
 
 // import { withWonderPushIos } from './withTalkjsIos'
 
-const withWonderPush: ConfigPlugin<WonderPushPluginProps> = (config, props) => {
+const withWonderPush: ConfigPlugin<WonderPushPluginProps> = (config) => {
   // config = withWonderPushIos(config, props)
-  config = withTalkjsAndroid(config, props)
+  config = withTalkjsAndroid(config)
 
   return config
 }

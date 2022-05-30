@@ -1,7 +1,7 @@
 {
-  "name": "wonderpush-expo-plugin",
-  "version": "1.0.2",
-  "description": "Fork of the OneSignal Expo plugin for WonderPush",
+  "name": "talkjs-expo-plugin",
+  "version": "1.0.0",
+  "description": "talkjs plugin for notifications",
   "main": "./app.plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,27 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LinFeiLong/wonderpush-expo-plugin.git"
+    "url": "git+https://github.com/LinFeiLong/talkjs-expo-plugin.git"
   },
   "keywords": [
     "expo",
-    "onesignal",
+    "talkjs",
     "push",
     "notifications",
     "EAS"
   ],
-  "author": "rgomezp",
-  "contributors": [
-    "Karen Grigoryan",
-    "Rodrigo Gomez-Palacio",
-    "Charlie Cruzan",
-    "Wojciech Kozyra"
-  ],
+  "author": "LinFeiLong",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LinFeiLong/onesignal-expo-plugin/issues"
-  },
-  "homepage": "https://github.com/LinFeiLong/onesignal-expo-plugin#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",

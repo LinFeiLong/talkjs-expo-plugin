@@ -22,7 +22,7 @@ function addTalkjsDefaultConfigBlock(
   )
 }
 
-export const withTalkjsAndroid: ConfigPlugin<any> = (
+export const withTalkjsAndroid: ConfigPlugin = (
   config
   // props
 ) => {
